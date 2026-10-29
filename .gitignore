@@ -1,0 +1,17 @@
+node_modules/
+
+# Local credentials and authentication state
+.env
+.env.*
+!.env.example
+playwright/.auth/
+storage-state.json
+
+# Playwright output and potentially sensitive browser artifacts
+test-results/
+playwright-report/
+blob-report/
+screenshots/
+traces/
+videos/
+*.zip
